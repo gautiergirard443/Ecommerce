@@ -1,41 +1,42 @@
 import React from 'react';
+import './homepage.styles.scss';
 
 const HomePage = () => (
-  <div className='homepage'>
-    <div className='directory-menu'>
-      <div className='menu-item'>
-        <div className='content'>
-          <h1 className='CHAUSSURES'></h1>
-          <span className='subtitle'>Acheter maintenant!</span>
+    <div className='homepage'>
+      <h1>Bienvenue sur Homemade-Clothink</h1>
+      <div className='directory-menu'>
+        <div className='menu-item'>
+          <div className='content'>
+            <div className='title'>CASQUETTES</div>
+            <span className='subtitle'>SHOP NOW</span>
+          </div>
+        </div>
+        <div className='menu-item'>
+          <div className='content'>
+            <div className='title'>VESTES</div>
+            <span className='subtitle'>SHOP NOW</span>
+          </div>
+        </div>
+        <div className='menu-item'>
+          <div className='content'>
+            <div className='title'>CHAUSSURES</div>
+            <span className='subtitle'>SHOP NOW</span>
+          </div>
+        </div>
+        <div className='menu-item'>
+          <div className='content'>
+            <div className='title'>TOILES</div>
+            <span className='subtitle'>SHOP NOW</span>
+          </div>
+        </div>
+        <div className='menu-item'>
+          <div className='content'>
+            <div className='title'>MOBILIER</div>
+            <span className='subtitle'>SHOP NOW</span>
+          </div>
         </div>
       </div>
-      <div className='menu-item'>
-        <div className='content'>
-          <h1 className='CASQUETTES'></h1>
-          <span className='subtitle'>Acheter maintenant!</span>
-        </div>
-      </div>
-      <div className='menu-item'>
-        <div className='content'>
-          <h1 className='T-SHIRTS'></h1>
-          <span className='subtitle'>Acheter maintenant!</span>
-        </div>
-      </div>
-      <div className='menu-item'>
-        <div className='content'>
-          <h1 className='LUNETTES'></h1>
-          <span className='subtitle'>Acheter maintenant!</span>
-        </div>
-      </div>
-      <div className='menu-item'>
-        <div className='content'>
-          <h1 className='JOGGINGS'></h1>
-          <span className='subtitle'>Acheter maintenant!</span>
-        </div>
-      </div>
-    </div> 
-  </div>
-);
-
-
-export default HomePage;
+    </div>
+  );
+  
+  export default HomePage;
